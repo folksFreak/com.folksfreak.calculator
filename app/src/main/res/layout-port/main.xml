@@ -20,36 +20,16 @@
             <RelativeLayout
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="100"
-                android:layout_marginLeft="20dp">
+                android:layout_weight="130"
+                android:layout_marginLeft="0dp">
                 <RelativeLayout
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="30dp">
+                    android:layout_marginTop="0dp">
                     <LinearLayout
                         android:layout_width="fill_parent"
                         android:layout_height="wrap_content"
                         android:orientation="vertical">
-
-                        <ImageButton
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            style="?action_button_style"
-                            android:src="@drawable/ic_action_history"
-                            android:onClick="onClickListenerHistory"
-                            android:scaleType="centerInside"
-                            android:layout_weight="1"/>
-
-                        <ImageButton
-                            android:id="@+id/settings"
-                            android:layout_width="fill_parent"
-                            android:layout_height="fill_parent"
-                            android:layout_weight="1"
-                            style="?action_button_style"
-                            android:src="@drawable/ic_action_settings"
-                            android:scaleType="centerInside"
-                            android:onClick="onClickListenerSettings"/>
-
 
                         <ImageButton
                             android:id="@+id/overflow_menu"
@@ -60,6 +40,13 @@
                             android:scaleType="centerInside"
                             android:contentDescription="@null"
                             android:layout_weight="1"/>
+
+                        // Dummy image button to relative design
+                        <ImageButton
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="1"
+                            android:src="@drawable/ic_action_dummy"/>
 
                         // Dummy image button to relative design
                         <ImageButton
