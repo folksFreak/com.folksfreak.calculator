@@ -1,4 +1,4 @@
-folskFreak Calculator for Android
+folksFreak Calculator for Android
 ==============
 ### CALCULATE WITH STYLE
 folksFreak Calculator is yet another calculator app, only more stylish then the rest. The design of the app follows the new material design guidelines as much as possible, which results in a modern day looking colourful interface.
