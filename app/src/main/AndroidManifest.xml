@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.folksfreak.calculator"
+    package="com.numix.calculator"
     android:versionName="2.6.1"
     android:versionCode="8">
 
@@ -8,7 +8,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
-    <original-package android:name="com.folksfreak.calculator" />
+    <original-package android:name="com.numix.calculator" />
     <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="21"/>
 
 

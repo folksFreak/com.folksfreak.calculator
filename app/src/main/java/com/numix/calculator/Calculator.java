@@ -383,10 +383,10 @@ public class Calculator extends Activity implements Logic.Listener, OnClickListe
             }
             break;
 
-        case R.id.settings:
-            startActivity(new Intent(this, Preferences.class));
-            finish();
-            break;
+//        case R.id.settings:
+//            startActivity(new Intent(this, Preferences.class));
+//            finish();
+//            break;
         }
         return super.onOptionsItemSelected(item);
     }
